@@ -134,11 +134,11 @@ ul.social-network {
     list-style: none;
     display: inline;
     margin-left:0 !important;
-    padding: 0;
+    padding: 15px;
 }
 ul.social-network li {
     display: inline;
-    margin: 0 5px;
+    margin: 15px;
 }
 
 /* footer social icons */
@@ -653,7 +653,18 @@ body{/*
     color: #fff;
     font-family: Georgia;
     font-size: 13px;
+    text-shadow: 5px;
 }
 .rel {
     position: relative;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #picbook{
+        display: none;
+    }
+    #hidebook{
+        display: none;
+    }
+} 
